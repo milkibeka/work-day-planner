@@ -7,5 +7,6 @@ var now = moment().format("dddd, MMMM Do");
         $(this).toggleClass("past", currentHour > timeDiv);
         $(this).toggleClass("present", currentHour == timeDiv);
         $(this).toggleClass("future", currentHour < timeDiv);
-      });
+        $(this).find(".time-block").prop("disabled", currentHour > timeDiv); 
+    });
     
