@@ -19,3 +19,8 @@ var now = moment().format("dddd, MMMM Do");
         var timeId = $(this).closest(".time-div").attr("id").split("-")[1];
         $(this).val(localStorage.getItem(timeId));
       });
+      $("#clearFieldsBtn").click(function(event) {
+        event.preventDefault();
+        $("textarea").val("");
+      });
+  
