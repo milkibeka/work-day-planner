@@ -22,5 +22,6 @@ var now = moment().format("dddd, MMMM Do");
       $("#clearFieldsBtn").click(function(event) {
         event.preventDefault();
         $("textarea").val("");
+        localStorage.clear();
       });
   
