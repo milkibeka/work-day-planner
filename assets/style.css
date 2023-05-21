@@ -23,6 +23,7 @@ textarea {
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  
 }
 
 .description {
@@ -44,6 +45,9 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding-top: 15px;
+  text-align: right;
+  font-size: 20x;
 }
 
 .past {
