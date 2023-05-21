@@ -1,10 +1,10 @@
 # Work-day-planner
 
-This assignment requires me to build a work day planner displaying current date and time  and featuring a schedule that shows the times between 09.00 and 17.00 as one hour blocks. For the current time and future dairy entries can be saved to local storage.
+This is a work day planner app displaying current date and time  and featuring a schedule that shows the times between 09.00 and 17.00 as one hour blocks. For the current time and future dairy entries can be saved to local storage.
 
-This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that I write. 
+This app runs in the browser, and features dynamically updated HTML and CSS powered by JavaScript.
 
- It will have a clean, polished, and responsive user interface. 
+ It has a clean, polished, and responsive user interface. 
 
 
 ## Instructions
@@ -27,14 +27,16 @@ https://milkibeka.github.io/work-day-planner/
 ## Mock-up
 The following animation demonstrates the application functionality:
 
-![Alt text](assets/images/05-third-party-apis-homework-demo.gif "Work day planner demo")
+![Work day planner demo](assets/images/work-day-planner%20demo.gif)
 
 ## Credits
- For this work day planner application starter codes are provided by UoB Front-end & UX Skills Bootcamp. 
+ For this work day planner application starter codes are provided by University of Birmingham Front-end & UX Skills Bootcamp. 
  
  Other than course materials
 
-https://icons.getbootstrap.com/
+https://fontawesome.com/
+
+https://stackoverflow.com/questions/1414365/disable-enable-an-input-with-jquery
 
 and
 
