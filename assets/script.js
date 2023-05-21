@@ -15,4 +15,7 @@ var now = moment().format("dddd, MMMM Do");
         var time = $(this).parent().attr("id").split("-")[1];
         localStorage.setItem(time, task);
       });
-    
+      $("#hour-09 .time-block, #hour-10 .time-block, #hour-11 .time-block, #hour-12 .time-block, #hour-13 .time-block, #hour-14 .time-block, #hour-15 .time-block, #hour-16 .time-block, #hour-17 .time-block").each(function() {
+        var timeId = $(this).closest(".time-div").attr("id").split("-")[1];
+        $(this).val(localStorage.getItem(timeId));
+      });
