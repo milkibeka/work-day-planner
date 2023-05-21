@@ -1,6 +1,6 @@
 var now = moment().format("dddd, MMMM Do");
     $("#currentDay").text(now);
-    const currentHour = moment().format("HH");
+    var currentHour = moment().format("HH");
   
     $(".time-div").each(function() {
         const timeDiv = $(this).attr("id").split("-")[1];
