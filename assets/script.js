@@ -9,4 +9,10 @@ var now = moment().format("dddd, MMMM Do");
         $(this).toggleClass("future", currentHour < timeDiv);
         $(this).find(".time-block").prop("disabled", currentHour > timeDiv); 
     });
+    $(".saveBtn").click(function(event) {
+        event.preventDefault();
+        var task = $(this).siblings(".time-block").val();
+        var time = $(this).parent().attr("id").split("-")[1];
+        localStorage.setItem(time, task);
+      });
     
