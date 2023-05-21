@@ -1,7 +1,7 @@
 var now = moment().format("dddd, MMMM Do");
     $("#currentDay").text(now);
     const currentHour = moment().format("HH");
-    console.log(currentHour);
+  
     $(".time-div").each(function() {
         const timeDiv = $(this).attr("id").split("-")[1];
         $(this).toggleClass("past", currentHour > timeDiv);
